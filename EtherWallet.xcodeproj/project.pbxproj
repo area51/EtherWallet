@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80454FD32763D3FD00446ED0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80454FD22763D3FD00446ED0 /* AppDelegate.swift */; };
+		80454FD72763D3FD00446ED0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80454FD62763D3FD00446ED0 /* ViewController.swift */; };
+		80454FDC2763D3FF00446ED0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80454FDB2763D3FF00446ED0 /* Assets.xcassets */; };
+		80454FDF2763D3FF00446ED0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80454FDD2763D3FF00446ED0 /* LaunchScreen.storyboard */; };
+		80454FEA2763D3FF00446ED0 /* EtherWalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80454FE92763D3FF00446ED0 /* EtherWalletTests.swift */; };
+		80454FF42763D3FF00446ED0 /* EtherWalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80454FF32763D3FF00446ED0 /* EtherWalletUITests.swift */; };
+		80454FF62763D3FF00446ED0 /* EtherWalletUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80454FF52763D3FF00446ED0 /* EtherWalletUITestsLaunchTests.swift */; };
+		804550072763DB8F00446ED0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 804550062763DB8F00446ED0 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80454FE62763D3FF00446ED0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80454FC72763D3FD00446ED0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80454FCE2763D3FD00446ED0;
+			remoteInfo = EtherWallet;
+		};
+		80454FF02763D3FF00446ED0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80454FC72763D3FD00446ED0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80454FCE2763D3FD00446ED0;
+			remoteInfo = EtherWallet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80454FCF2763D3FD00446ED0 /* EtherWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EtherWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80454FD22763D3FD00446ED0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80454FD62763D3FD00446ED0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80454FDB2763D3FF00446ED0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80454FDE2763D3FF00446ED0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80454FE52763D3FF00446ED0 /* EtherWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EtherWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80454FE92763D3FF00446ED0 /* EtherWalletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtherWalletTests.swift; sourceTree = "<group>"; };
+		80454FEF2763D3FF00446ED0 /* EtherWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EtherWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80454FF32763D3FF00446ED0 /* EtherWalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtherWalletUITests.swift; sourceTree = "<group>"; };
+		80454FF52763D3FF00446ED0 /* EtherWalletUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtherWalletUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		804550062763DB8F00446ED0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80454FCC2763D3FD00446ED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80454FE22763D3FF00446ED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80454FEC2763D3FF00446ED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80454FC62763D3FD00446ED0 = {
+			isa = PBXGroup;
+			children = (
+				80454FD12763D3FD00446ED0 /* EtherWallet */,
+				80454FE82763D3FF00446ED0 /* EtherWalletTests */,
+				80454FF22763D3FF00446ED0 /* EtherWalletUITests */,
+				80454FD02763D3FD00446ED0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80454FD02763D3FD00446ED0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80454FCF2763D3FD00446ED0 /* EtherWallet.app */,
+				80454FE52763D3FF00446ED0 /* EtherWalletTests.xctest */,
+				80454FEF2763D3FF00446ED0 /* EtherWalletUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80454FD12763D3FD00446ED0 /* EtherWallet */ = {
+			isa = PBXGroup;
+			children = (
+				80454FD22763D3FD00446ED0 /* AppDelegate.swift */,
+				80454FD62763D3FD00446ED0 /* ViewController.swift */,
+				804550052763DB6E00446ED0 /* _docs */,
+				804550022763D5E200446ED0 /* zSupportFiles */,
+			);
+			path = EtherWallet;
+			sourceTree = "<group>";
+		};
+		80454FE82763D3FF00446ED0 /* EtherWalletTests */ = {
+			isa = PBXGroup;
+			children = (
+				80454FE92763D3FF00446ED0 /* EtherWalletTests.swift */,
+			);
+			path = EtherWalletTests;
+			sourceTree = "<group>";
+		};
+		80454FF22763D3FF00446ED0 /* EtherWalletUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80454FF32763D3FF00446ED0 /* EtherWalletUITests.swift */,
+				80454FF52763D3FF00446ED0 /* EtherWalletUITestsLaunchTests.swift */,
+			);
+			path = EtherWalletUITests;
+			sourceTree = "<group>";
+		};
+		804550022763D5E200446ED0 /* zSupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				80454FDB2763D3FF00446ED0 /* Assets.xcassets */,
+				80454FDD2763D3FF00446ED0 /* LaunchScreen.storyboard */,
+			);
+			path = zSupportFiles;
+			sourceTree = "<group>";
+		};
+		804550052763DB6E00446ED0 /* _docs */ = {
+			isa = PBXGroup;
+			children = (
+				804550062763DB8F00446ED0 /* README.md */,
+			);
+			name = _docs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80454FCE2763D3FD00446ED0 /* EtherWallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80454FF92763D3FF00446ED0 /* Build configuration list for PBXNativeTarget "EtherWallet" */;
+			buildPhases = (
+				80454FCB2763D3FD00446ED0 /* Sources */,
+				80454FCC2763D3FD00446ED0 /* Frameworks */,
+				80454FCD2763D3FD00446ED0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EtherWallet;
+			productName = EtherWallet;
+			productReference = 80454FCF2763D3FD00446ED0 /* EtherWallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80454FE42763D3FF00446ED0 /* EtherWalletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80454FFC2763D3FF00446ED0 /* Build configuration list for PBXNativeTarget "EtherWalletTests" */;
+			buildPhases = (
+				80454FE12763D3FF00446ED0 /* Sources */,
+				80454FE22763D3FF00446ED0 /* Frameworks */,
+				80454FE32763D3FF00446ED0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80454FE72763D3FF00446ED0 /* PBXTargetDependency */,
+			);
+			name = EtherWalletTests;
+			productName = EtherWalletTests;
+			productReference = 80454FE52763D3FF00446ED0 /* EtherWalletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80454FEE2763D3FF00446ED0 /* EtherWalletUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80454FFF2763D3FF00446ED0 /* Build configuration list for PBXNativeTarget "EtherWalletUITests" */;
+			buildPhases = (
+				80454FEB2763D3FF00446ED0 /* Sources */,
+				80454FEC2763D3FF00446ED0 /* Frameworks */,
+				80454FED2763D3FF00446ED0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80454FF12763D3FF00446ED0 /* PBXTargetDependency */,
+			);
+			name = EtherWalletUITests;
+			productName = EtherWalletUITests;
+			productReference = 80454FEF2763D3FF00446ED0 /* EtherWalletUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80454FC72763D3FD00446ED0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					80454FCE2763D3FD00446ED0 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					80454FE42763D3FF00446ED0 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 80454FCE2763D3FD00446ED0;
+					};
+					80454FEE2763D3FF00446ED0 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 80454FCE2763D3FD00446ED0;
+					};
+				};
+			};
+			buildConfigurationList = 80454FCA2763D3FD00446ED0 /* Build configuration list for PBXProject "EtherWallet" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80454FC62763D3FD00446ED0;
+			productRefGroup = 80454FD02763D3FD00446ED0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80454FCE2763D3FD00446ED0 /* EtherWallet */,
+				80454FE42763D3FF00446ED0 /* EtherWalletTests */,
+				80454FEE2763D3FF00446ED0 /* EtherWalletUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80454FCD2763D3FD00446ED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				804550072763DB8F00446ED0 /* README.md in Resources */,
+				80454FDF2763D3FF00446ED0 /* LaunchScreen.storyboard in Resources */,
+				80454FDC2763D3FF00446ED0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80454FE32763D3FF00446ED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80454FED2763D3FF00446ED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80454FCB2763D3FD00446ED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80454FD72763D3FD00446ED0 /* ViewController.swift in Sources */,
+				80454FD32763D3FD00446ED0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80454FE12763D3FF00446ED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80454FEA2763D3FF00446ED0 /* EtherWalletTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80454FEB2763D3FF00446ED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80454FF62763D3FF00446ED0 /* EtherWalletUITestsLaunchTests.swift in Sources */,
+				80454FF42763D3FF00446ED0 /* EtherWalletUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80454FE72763D3FF00446ED0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80454FCE2763D3FD00446ED0 /* EtherWallet */;
+			targetProxy = 80454FE62763D3FF00446ED0 /* PBXContainerItemProxy */;
+		};
+		80454FF12763D3FF00446ED0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80454FCE2763D3FD00446ED0 /* EtherWallet */;
+			targetProxy = 80454FF02763D3FF00446ED0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80454FDD2763D3FF00446ED0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80454FDE2763D3FF00446ED0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80454FF72763D3FF00446ED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80454FF82763D3FF00446ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80454FFA2763D3FF00446ED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FJKBR6T662;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.alex.EtherWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80454FFB2763D3FF00446ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FJKBR6T662;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.alex.EtherWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80454FFD2763D3FF00446ED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FJKBR6T662;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.alex.EtherWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EtherWallet.app/EtherWallet";
+			};
+			name = Debug;
+		};
+		80454FFE2763D3FF00446ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FJKBR6T662;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.alex.EtherWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EtherWallet.app/EtherWallet";
+			};
+			name = Release;
+		};
+		804550002763D3FF00446ED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FJKBR6T662;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.alex.EtherWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EtherWallet;
+			};
+			name = Debug;
+		};
+		804550012763D3FF00446ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FJKBR6T662;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.alex.EtherWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EtherWallet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80454FCA2763D3FD00446ED0 /* Build configuration list for PBXProject "EtherWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80454FF72763D3FF00446ED0 /* Debug */,
+				80454FF82763D3FF00446ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80454FF92763D3FF00446ED0 /* Build configuration list for PBXNativeTarget "EtherWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80454FFA2763D3FF00446ED0 /* Debug */,
+				80454FFB2763D3FF00446ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80454FFC2763D3FF00446ED0 /* Build configuration list for PBXNativeTarget "EtherWalletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80454FFD2763D3FF00446ED0 /* Debug */,
+				80454FFE2763D3FF00446ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80454FFF2763D3FF00446ED0 /* Build configuration list for PBXNativeTarget "EtherWalletUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				804550002763D3FF00446ED0 /* Debug */,
+				804550012763D3FF00446ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80454FC72763D3FD00446ED0 /* Project object */;
+}
